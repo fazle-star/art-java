@@ -152,21 +152,6 @@
     <div>
       <audio src="audio/JOGJA ISTIMEWA (Official Klip).mp3"  controls class="hidden"></audio>
     </div>
-
-    const SmoothScrollNav = () => {
-      const scrollToSection = (e) => {
-        e.preventDefault();
-        const targetId = e.target.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        
-        if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-            inline: 'nearest'
-          });
-        }
-      };
 </body>
 </html>
 
