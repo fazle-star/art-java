@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>art java </title>
+</head>
+<body>
+    <div class="min-h-screen bg-stone-50">
+      
+      <header class="fixed w-full bg-Headers backdrop-blur-sm border-b border-stone-100 z-50">
+        <nav class="max-w-7xl mx-auto px-6 py-4">
+          <div class="flex items-center justify-between">
+            <h1 class="font-serif text-2xl">fazleweb</h1>
+            <div class="hidden md:flex space-x-12">
+              <a href="#portofolio"  class="text-stone-700 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-black hover:after:w-full after:transition-all">portofolio</a>
+              <a href="#galery" class="text-stone-700 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-black hover:after:w-full after:transition-all">Gallery</a>
+              <a href="#About" class="text-stone-700 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-black hover:after:w-full after:transition-all">About</a>
+              <a href="#Contact" class="text-stone-700 hover:text-black transition-all duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-black hover:after:w-full after:transition-all">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section id="portofolio" class="h-screen relative overflow-hidden">
+        <img src="img/ifoto-ai_1736317079053.png" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative h-full flex items-center justify-center">
+          <div class="max-w-4xl mx-auto px-6 text-center space-y-8">
+            <h2 class="font-serif text-6xl md:text-7xl text-white">Yogyakarta</h2>
+            <p class="text-lg text-stone-200 max-w-2xl mx-auto leading-relaxed">A cultural city with keraton, education, tourism and traditional culinary.</p>
+            <button class="mt-8 px-12 py-4 border border-white text-white hover:bg-white hover:text-black transition-all duration-300">Discover More</button>
+          </div>
+        </div>
+      </section>
+
+      <section  class="py-24 bg-white">
+        <div id="galery" class="max-w-7xl mx-auto px-6">
+          <h2 class="font-serif text-4xl text-center mb-16">Curated Collections</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="group cursor-pointer">
+              <div class="relative overflow-hidden">
+                <img src="img/Malioboro Street Fotography.jpg" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"/>
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all"></div>
+                <h3 class="absolute bottom-8 left-8 font-serif text-2xl text-white">Modern Living</h3>
+              </div>
+            </div>
+            <div class="group cursor-pointer">
+              <div class="relative overflow-hidden">
+                <img src="img/download (3).jpg" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"/>
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all"></div>
+                <h3 class="absolute bottom-8 left-8 font-serif text-2xl text-white">Classic Designs</h3>
+              </div>
+            </div>
+            <div class="group cursor-pointer">
+              <div class="relative overflow-hidden">
+                <img src="img/Must-Visit Destinations In Yogyakarta Indonesia.jpg" class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"/>
+                <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all"></div>
+                <h3 class="absolute bottom-8 left-8 font-serif text-2xl text-white">Artisanal Details</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-24 bg-desk">
+        <div id="About" class="max-w-7xl mx-auto px-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+              <h2 class="font-serif text-4xl">The Art of Living</h2>
+              <p class="text-stone-600 leading-relaxed">"In Yogyakarta's timeless heart, ancient traditions dance with modern dreams, while the Sultan's palace whispers stories of cultural grace"</p>
+              <div class="flex space-x-6">
+                <button class="px-8 py-3 border border-black hover:bg-black hover:text-white transition-all duration-300">View Project</button>
+                <button class="px-8 py-3 bg-black text-white hover:bg-stone-800 transition-all duration-300">Learn More</button>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="img/Albinos, dwarves and royalty_ the magic of Java _ Indonesia etc.jpg" class="w-full h-[600px] object-cover"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-24 bg-white">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+          <blockquote class="space-y-8">
+            <p class="font-serif text-3xl italic">"Urban lights paint the night sky, as city streets weave tales of dreams, hope, and endless possibilities."</p>
+            <footer class="text-stone-600">
+              <cite class="not-italic">— fazlferino</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="py-24 bg-desk">
+        <div id="Contact" class="max-w-xl mx-auto px-6">
+          <h2 class="font-serif text-3xl text-center mb-12">Connect With Us</h2>
+          <form class="space-y-6">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="w-full px-6 py-4 bg-transparent border border-stone-400 focus:border-black outline-none transition-all"
+            />
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="w-full px-6 py-4 bg-transparent border border-stone-400 focus:border-black outline-none transition-all"
+            />
+            <textarea
+              placeholder="Your Message"
+              rows="4"
+              class="w-full px-6 py-4 bg-transparent border border-stone-400 focus:border-black outline-none transition-all"
+            ></textarea>
+            <button class="w-full px-8 py-4 border border-black hover:bg-black hover:text-white transition-all duration-300">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="py-16 bg-white border-t border-stone-100">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="space-y-4">
+              <h4 class="font-serif text-xl">fazleweb</h4>
+              <p class="text-stone-600">Creating timeless spaces that inspire.</p>
+            </div>
+            <div class="space-y-4">
+              <h4 class="font-serif text-lg">Contact</h4>
+              <p class="text-stone-600">m.fazle2006@gmail.com</p>
+              <p class="text-stone-600">+62 813 2714 4580</p>
+            </div>
+            <div class="space-y-4">
+              <h4 class="font-serif text-lg">Visit</h4>
+              <p class="text-stone-600">Yogyakarta country</p>
+              <p class="text-stone-600">Yogyakarta, 2025</p>
+            </div>
+            <div class="space-y-4">
+              <h4 class="font-serif text-lg">Follow</h4>
+              <div class="flex space-x-4">
+                <a href="#" class="text-stone-600 hover:text-black transition-all">Instagram</a>
+                <a href="#" class="text-stone-600 hover:text-black transition-all">facebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div>
+      <audio src="audio/JOGJA ISTIMEWA (Official Klip).mp3"  controls class="hidden"></audio>
+    </div>
+
+    const SmoothScrollNav = () => {
+      const scrollToSection = (e) => {
+        e.preventDefault();
+        const targetId = e.target.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'nearest'
+          });
+        }
+      };
+</body>
+</html>
+
